@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.3.30)  18 JUN 2022 23:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.3.30)  19 JUN 2022 00:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -361,9 +361,9 @@ Here is how much of TeX's memory you used:
  28374 multiletter control sequences out of 15000+600000
  475249 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,7n,63p,600b,343s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,7n,63p,634b,343s stack positions out of 5000i,500n,10000p,200000b,80000s
 <d:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on main.pdf (6 pages, 247400 bytes).
+Output written on main.pdf (6 pages, 248279 bytes).
 PDF statistics:
  183 PDF objects out of 1000 (max. 8388607)
  153 compressed objects within 2 object streams
