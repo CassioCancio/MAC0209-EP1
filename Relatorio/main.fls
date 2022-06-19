@@ -567,6 +567,21 @@ INPUT d:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT d:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 OUTPUT main.toc
 INPUT d:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT ./img/Parte 1.png
+INPUT ./img/Parte 1.png
+INPUT ./img/Parte 1.png
+INPUT ./img/Parte 1.png
+INPUT ./img/Parte 1.png
+INPUT ./img/Parte 2.png
+INPUT ./img/Parte 2.png
+INPUT ./img/Parte 2.png
+INPUT ./img/Parte 2.png
+INPUT ./img/Parte 2.png
+INPUT ./img/Parte 3.png
+INPUT ./img/Parte 3.png
+INPUT ./img/Parte 3.png
+INPUT ./img/Parte 3.png
+INPUT ./img/Parte 3.png
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
