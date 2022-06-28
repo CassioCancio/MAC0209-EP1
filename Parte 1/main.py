@@ -93,12 +93,14 @@ def main():
     distancias_fora, dt_fora, velocidades_fora, dist_total_fora, tempo_total_fora, vel_med_fora = subtrecho_info(dados_tratados_fora)
     
     cum_dist_br = (list(accumulate(distancias_br[0])),list(accumulate(distancias_br[1])),list(accumulate(distancias_br[2])))
+    cum_dt_br = (list(accumulate(dt_br)))
     cum_dist_fora = (list(accumulate(distancias_fora[0])),list(accumulate(distancias_fora[1])),list(accumulate(distancias_fora[2])))
+    cum_dt_fora = (list(accumulate(dt_fora)))
 
 
     # Plota graico
-    plotar_dados(cum_dist_br, dt_br)
-    plotar_dados(cum_dist_fora, dt_fora)
+    plotar_dados(cum_dist_br, cum_dt_br)
+    plotar_dados(cum_dist_fora, cum_dt_fora)
 
 if __name__ == "__main__":
  	main()
