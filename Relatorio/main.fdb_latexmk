@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1656619985 "c:/Users/cassi/OneDrive/USP/3_Semestre/MAC0209/EP1/MAC0209-EP1/Relatorio/main.tex" "main.pdf" "main" 1656619987
-  "c:/Users/cassi/OneDrive/USP/3_Semestre/MAC0209/EP1/MAC0209-EP1/Relatorio/main.tex" 1656619983 12966 9cb6f24e66ad8948fc0576331d87401e ""
+["pdflatex"] 1656890499 "c:/Users/cassi/OneDrive/USP/3_Semestre/MAC0209/EP1/MAC0209-EP1/Relatorio/main.tex" "main.pdf" "main" 1656890506
+  "c:/Users/cassi/OneDrive/USP/3_Semestre/MAC0209/EP1/MAC0209-EP1/Relatorio/main.tex" 1656890492 14521 a18c5a4a46710f35ee91278ff8ddd41a ""
   "d:/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1648673408 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "d:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1648671517 1004 54797486969f23fa377b128694d548df ""
   "d:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1648671517 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -117,10 +117,11 @@
   "img/grafico_velocidade_uk_zoom.png" 1656616349 39842 c1e91311a1d188b0369a07178fbb0482 ""
   "img/mapaGuaruja.png" 1656374330 556637 ba0d022603ffc6b13bbc87969755d76f ""
   "img/mapaInglaterra.png" 1656375008 208891 9d16580bdf13b21dec690d4b31b218bf ""
-  "main.aux" 1656619987 6032 d08c2443b68c0034efb967e44cb70422 "pdflatex"
-  "main.out" 1656619987 3134 3a6554f7a840f925535d04076740ded5 "pdflatex"
-  "main.tex" 1656619983 12966 9cb6f24e66ad8948fc0576331d87401e ""
-  "main.toc" 1656619987 1835 fb8940fe65127e3a51fd698c41ee686f "pdflatex"
+  "img/tabelas_bloco_rampa.png" 1656889829 43102 bc157dca3045ba166b52f4cf68b9b939 ""
+  "main.aux" 1656890505 6578 bdbc81f0849f12176c391c98e3df307f "pdflatex"
+  "main.out" 1656890505 3305 225b0578dfc9e67c12da3507a8520e3a "pdflatex"
+  "main.tex" 1656890492 14521 a18c5a4a46710f35ee91278ff8ddd41a ""
+  "main.toc" 1656890506 1995 2e948f12f3e94226677f15abc696abbb "pdflatex"
   (generated)
   "main.aux"
   "main.log"

@@ -1,4 +1,5 @@
 import math
+from animacao import animar_rampa
 
 def main():
     # Variáveis prontas
@@ -24,19 +25,28 @@ def main():
     t_inicial = 1/30
 
     estados = [("Tempo","Posição em cm")]
+    
+    animacao = []
+    
     teta = teta * math.pi/180
 
+    animacao.append((math.cos(teta)*x,math.sin(teta)*x))
+    
     while(t_inicial <= t_final):
         x += v*dt
         v += a*dt
-
+        
         if not(atrito): a = g*math.sin(teta)
         elif v == 0:    a = g*(math.sin(teta)-estatico*math.cos(teta))
         else:           a = g*(math.sin(teta)-cinetico*math.cos(teta))
         estados.append((t_inicial,x))
         t_inicial += dt
+        
+        animacao.append((math.cos(teta)*x,math.sin(teta)*x))
 
     imprimir(estados)
+
+    animar_rampa(animacao)
 
 def imprimir(estados: list):
     print(f"{estados[0][0]}\t {estados[0][1]}")
