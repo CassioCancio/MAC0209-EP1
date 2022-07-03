@@ -44,12 +44,16 @@ def subtrecho_info(dados: list):
     
 # Argumentos: Lista com as velocidades e as diferencas de tempo entre os pontos
 # Plota os graficos de velocidade x tempo das diferentes formulas
-def plotar_dados(parametro: list, dt: list):
-    plt.plot(parametro[0], dt)
-    plt.plot(parametro[1], dt)
-    plt.plot(parametro[2], dt)
-    plt.xlabel("Tempo (s)")
-    plt.ylabel("Velocidade")
+def plotar_dados(x_title: str, y_title: str, parametro: list, dt: list):
+
+    plt.plot(dt, parametro[0], "-m", label="Haversine")
+    plt.plot(dt, parametro[1], "-c", label="Coordenadas no plano")
+    plt.plot(dt, parametro[2], "orange", label="Trigonometria esférica")
+    plt.xlabel(x_title)
+    plt.ylabel(y_title)
+
+    plt.legend()
+    plt.grid()
     plt.show()
 
 def main():  
@@ -78,6 +82,7 @@ def main():
     dados_tratados_brasil = tratar_dados(dados_brutos_brasil, parametros)
     dados_tratados_fora = tratar_dados(dados_brutos_fora, parametros)
 
+    # print(dados_tratados_brasil)
     # baixa as fotos do trajeto
     # for dado in dados_tratados_fora:
     #     salvar_imagem(dado["sequenceIndex"], dado["fileurlLTh"])
@@ -85,8 +90,8 @@ def main():
     # transforma coordenadas
     transformar_coordenadas(dados_tratados_brasil)
     transformar_coordenadas(dados_tratados_fora)
-    for i in range(10):
-        print(dados_tratados_brasil[i]["date"])
+    # for i in range(10):
+    #     print(dados_tratados_brasil[i]["date"])
 
     # Dados subtrecho
     distancias_br, dt_br, velocidades_br, dist_total_br, tempo_total_br, vel_med_br = subtrecho_info(dados_tratados_brasil)
@@ -98,9 +103,23 @@ def main():
     cum_dt_fora = (list(accumulate(dt_fora)))
 
 
-    # Plota graico
-    plotar_dados(cum_dist_br, cum_dt_br)
-    plotar_dados(cum_dist_fora, cum_dt_fora)
+    # Plota gráfico da distância acumulada
+    # plotar_dados("Tempo em segundos", "Distância em m", cum_dist_br, cum_dt_br)
+    # plotar_dados("Tempo em segundos", "Distância em m", cum_dist_fora, cum_dt_fora)
+
+    # Plota gráfico da velocidade
+
+    # for i in range(len(velocidades_fora[0])):
+    #     velocidades_fora[0][i] *= 3.6
+    #     velocidades_fora[1][i] *= 3.6
+    #     velocidades_fora[2][i] *= 3.6
+
+    # plotar_dados("Tempo em segundos","Velocidade em km/h",velocidades_br, cum_dt_br)
+    # plotar_dados("Tempo em segundos","Velocidade em km/h",velocidades_fora, cum_dt_fora)
+
+    print(cum_dist_fora[0][-1])
+    print(cum_dist_fora[1][-1])
+    print(cum_dist_fora[2][-1])
 
 if __name__ == "__main__":
  	main()
