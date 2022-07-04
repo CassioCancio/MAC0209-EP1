@@ -14,18 +14,10 @@ def nextState(S,dt):
 def rate(S,dt):
     g = 9.807
     r = 0.145
-    R = np.array([S[1], (-g/r)*math.sin(S[0]*pi/180), 1])
+    R = np.array([S[1], (-g/r)*math.sin(S[0]), 1])
     return(R)
 
-def get_initial_omega(experiment, dt):
-    return (experiment[1] - experiment[0])/dt
-
-def radians_to_angle(arr):
-    return [e*180/pi for e in arr]
-)
-def main():
-    theta = -2.0
-    omega = 17.453
+class Experiment_Handler:
     # todos dados de experimento abaixo representam angulos em graus
     # Experimento 2: (teta)
     e1 = [-2.0, 23.0, 48.0, 72.0, 92.0, 110.5, 127.5, 142.5, 156.0, 170.0, 183.0, 198.0, 212.5, 229.0, 248.0, 269.0, 291.0, 314.0, 337.0]
@@ -37,36 +29,58 @@ def main():
     e4 = [10.0, 35.5, 58.5, 80.5, 100.0, 118.0, 133.5, 148.0, 162.0, 175.5, 189.0, 204.0, 220.0, 237.0, 256.0, 278.0, 300.0, 324.0, 348.0]
     # Experimento 9: (teta)
     e5 = [18.0, 43.5, 65.5, 86.5, 107.0, 125.5, 139.0, 153.0, 167.0, 180.0, 194.0, 209.0, 225.0, 244.0, 264.0, 285.0, 308.0, 332.5, 356.0]
-    
-    experiments = [e1,e2,e3,e4,e5]
+    # Lista de cada experimento:
+    experiments = [e1, e2, e3, e4, e5]
     experiments_radian = [[e*pi/180 for e in exp] for exp in experiments]
-    initial_times = [0.0021, 0.0042, 0.0083, 0.0125, 0.0208]
-    experiment_index = 0
-    ti = initial_times[experiment_index]
-    dt = 0.025
-    tf = ti + dt*18
-    theta = experiments_radian[experiment_index][0]
-    omega = get_initial_omega(experiments_radian[experiment_index], dt)
-    vec = initState(theta, omega, ti)
-    states = [vec]
-    thetas = [vec[0]]
-    omegas = [vec[1]]
-    times = [vec[2]]
-    while ti <= tf:
-        vec = nextState(vec, dt)
-        states.append(vec)
-        thetas.append(vec[0])
-        omegas.append(vec[1])
-        times.append(vec[2])
-        ti += dt
 
-    print(states)
-    print(len(e1))
-    print(len(times))
-    print(len(thetas))
-    plt.scatterexperiments[expexperiment_index]1, times)
-    plt.plotradians_to_angle(thetas)s, times)
-    plt.show()
+    # Tempos iniciais de cada experimento:
+    initial_times = [0.0021, 0.0042, 0.0083, 0.0125, 0.0208]
+
+    dt = 0.025         # intervalo de tempo constante para cada experimento.
+
+    def radians_to_angle(self, arr):
+        return [elem*180/pi for elem in arr]
+
+    def get_initial_omega(self, index):
+        return (self.experiments_radian[index][1] - self.experiments_radian[index][0])/self.dt
+
+    def __init__(self, experiment_index, intervals=18):
+        self.index = experiment_index
+        self.ti = self.initial_times[self.index]
+        self.tf = self.ti + self.dt*intervals
+        self.theta = self.experiments_radian[self.index][0]
+        self.omega = self.get_initial_omega(self.index)
+
+    def train(self):
+        self.state_vec = initState(self.theta, self.omega, self.ti)
+        self.states = [self.state_vec]
+        self.thetas_vec = [self.theta]
+        self.omegas_vec = [self.omega]
+        self.time_vec = [self.ti]
+        
+        while self.ti <= self.tf:
+            self.state_vec = nextState(self.state_vec, self.dt)
+            self.states.append(self.state_vec)
+            self.thetas_vec.append(self.state_vec[0])
+            self.omegas_vec.append(self.state_vec[1])
+            self.time_vec.append(self.state_vec[2])
+            self.ti += self.dt
+
+    def graph(self):
+        plt.plot(self.time_vec, self.experiments[self.index], color="cyan", label="Experimento")
+        plt.plot(self.time_vec, self.radians_to_angle(self.thetas_vec), color="magenta", label="Simulação")
+        plt.ylabel("Ângulo em graus")
+        plt.xlabel("Tempo em segundos")
+        plt.legend()
+        plt.grid()
+        plt.show()
+
+
+def main():
+    experiment_index = 1   # escolher qual dos experimentos a modelar
+    experiment = Experiment_Handler(experiment_index)
+    experiment.train()
+    experiment.graph()
 
 if __name__ == "__main__":
     main()
