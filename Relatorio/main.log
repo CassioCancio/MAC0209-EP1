@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.3.30)  3 JUL 2022 20:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.3.30)  3 JUL 2022 22:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -371,155 +371,155 @@ LaTeX Info: Redefining \nameref on input line 28.
 \openout4 = `main.toc'.
 
  [2]
-<./img/Parte 1.png, id=141, 943.1235pt x 489.62926pt>
+<./img/Parte 1.png, id=151, 943.1235pt x 489.62926pt>
 File: ./img/Parte 1.png Graphic file (type png)
 <use ./img/Parte 1.png>
 Package pdftex.def Info: ./img/Parte 1.png  used on input line 47.
 (pdftex.def)             Requested size: 369.88582pt x 192.03047pt.
-<./img/Parte 2.png, id=143, 951.555pt x 495.0495pt>
+<./img/Parte 2.png, id=153, 951.555pt x 495.0495pt>
 File: ./img/Parte 2.png Graphic file (type png)
 <use ./img/Parte 2.png>
 Package pdftex.def Info: ./img/Parte 2.png  used on input line 48.
 (pdftex.def)             Requested size: 369.88582pt x 192.43399pt.
-<./img/Parte 3.png, id=144, 926.2605pt x 491.436pt>
+<./img/Parte 3.png, id=154, 926.2605pt x 491.436pt>
 File: ./img/Parte 3.png Graphic file (type png)
 <use ./img/Parte 3.png>
 Package pdftex.def Info: ./img/Parte 3.png  used on input line 49.
 (pdftex.def)             Requested size: 369.88582pt x 196.24097pt.
  [3 <./img/Parte 1.png> <./img/Parte 2.png> <./img/Parte 3.png>]
-<./img/mapaGuaruja.png, id=152, 462.528pt x 462.528pt>
+<./img/mapaGuaruja.png, id=162, 462.528pt x 462.528pt>
 File: ./img/mapaGuaruja.png Graphic file (type png)
 <use ./img/mapaGuaruja.png>
 Package pdftex.def Info: ./img/mapaGuaruja.png  used on input line 60.
 (pdftex.def)             Requested size: 170.71652pt x 170.71628pt.
-<./img/mapaInglaterra.png, id=153, 454.69875pt x 454.69875pt>
+<./img/mapaInglaterra.png, id=163, 454.69875pt x 454.69875pt>
 File: ./img/mapaInglaterra.png Graphic file (type png)
 <use ./img/mapaInglaterra.png>
 Package pdftex.def Info: ./img/mapaInglaterra.png  used on input line 63.
 (pdftex.def)             Requested size: 170.71652pt x 170.71974pt.
  [4 <./img/mapaGuaruja.png> <./img/mapaInglaterra.png>]
-<./img/BPlaca1.png, id=164, 43.66313pt x 58.71938pt>
+<./img/BPlaca1.png, id=175, 43.66313pt x 58.71938pt>
 File: ./img/BPlaca1.png Graphic file (type png)
 <use ./img/BPlaca1.png>
 Package pdftex.def Info: ./img/BPlaca1.png  used on input line 89.
 (pdftex.def)             Requested size: 42.67912pt x 57.39941pt.
-<./img/BPlaca2.png, id=165, 55.70813pt x 73.77562pt>
+<./img/BPlaca2.png, id=176, 55.70813pt x 73.77562pt>
 File: ./img/BPlaca2.png Graphic file (type png)
 <use ./img/BPlaca2.png>
 Package pdftex.def Info: ./img/BPlaca2.png  used on input line 90.
 (pdftex.def)             Requested size: 42.67912pt x 56.52145pt.
-<./img/BPlaca3.png, id=166, 31.61812pt x 42.1575pt>
+<./img/BPlaca3.png, id=177, 31.61812pt x 42.1575pt>
 File: ./img/BPlaca3.png Graphic file (type png)
 <use ./img/BPlaca3.png>
 Package pdftex.def Info: ./img/BPlaca3.png  used on input line 91.
 (pdftex.def)             Requested size: 42.67912pt x 56.90692pt.
-<./img/BPlaca4.png, id=167, 37.64063pt x 49.68562pt>
+<./img/BPlaca4.png, id=178, 37.64063pt x 49.68562pt>
 File: ./img/BPlaca4.png Graphic file (type png)
 <use ./img/BPlaca4.png>
 Package pdftex.def Info: ./img/BPlaca4.png  used on input line 92.
 (pdftex.def)             Requested size: 42.67912pt x 56.34196pt.
-<./img/BPlaca5.png, id=168, 48.18pt x 64.74188pt>
+<./img/BPlaca5.png, id=179, 48.18pt x 64.74188pt>
 File: ./img/BPlaca5.png Graphic file (type png)
 <use ./img/BPlaca5.png>
 Package pdftex.def Info: ./img/BPlaca5.png  used on input line 93.
 (pdftex.def)             Requested size: 42.67912pt x 57.3494pt.
-<./img/BPlaca6.png, id=169, 39.14626pt x 51.94406pt>
+<./img/BPlaca6.png, id=180, 39.14626pt x 51.94406pt>
 File: ./img/BPlaca6.png Graphic file (type png)
 <use ./img/BPlaca6.png>
 Package pdftex.def Info: ./img/BPlaca6.png  used on input line 94.
 (pdftex.def)             Requested size: 42.67912pt x 56.63374pt.
-<./img/BPlaca7.png, id=170, 31.61812pt x 42.1575pt>
+<./img/BPlaca7.png, id=181, 31.61812pt x 42.1575pt>
 File: ./img/BPlaca7.png Graphic file (type png)
 <use ./img/BPlaca7.png>
 Package pdftex.def Info: ./img/BPlaca7.png  used on input line 95.
 (pdftex.def)             Requested size: 42.67912pt x 56.90692pt.
-<./img/BPlaca8.png, id=171, 119.2455pt x 158.39175pt>
+<./img/BPlaca8.png, id=182, 119.2455pt x 158.39175pt>
 File: ./img/BPlaca8.png Graphic file (type png)
 <use ./img/BPlaca8.png>
 Package pdftex.def Info: ./img/BPlaca8.png  used on input line 96.
 (pdftex.def)             Requested size: 42.67912pt x 56.68987pt.
-<./img/grafico_distancia_acumulada.png, id=172, 548.0475pt x 449.88075pt>
+<./img/grafico_distancia_acumulada.png, id=183, 548.0475pt x 449.88075pt>
 File: ./img/grafico_distancia_acumulada.png Graphic file (type png)
 <use ./img/grafico_distancia_acumulada.png>
 Package pdftex.def Info: ./img/grafico_distancia_acumulada.png  used on input line 107.
 (pdftex.def)             Requested size: 227.62204pt x 186.85492pt.
-<./img/grafico_distancia_acumulada_zoom.png, id=173, 564.30824pt x 456.5055pt>
+<./img/grafico_distancia_acumulada_zoom.png, id=184, 564.30824pt x 456.5055pt>
 File: ./img/grafico_distancia_acumulada_zoom.png Graphic file (type png)
 <use ./img/grafico_distancia_acumulada_zoom.png>
 Package pdftex.def Info: ./img/grafico_distancia_acumulada_zoom.png  used on input line 108.
 (pdftex.def)             Requested size: 227.62204pt x 184.13838pt.
  [5 <./img/BPlaca1.png> <./img/BPlaca2.png> <./img/BPlaca3.png> <./img/BPlaca4.png> <./img/BPlaca5.png> <./img/BPlaca6.png> <./img/BPlaca7.png> <./img/BPlaca8.png> <./img/grafico_distancia_acumulada.png> <./img/grafico_distancia_acumulada_zoom.png>]
-<./img/grafico_velocidade_br.png, id=193, 591.4095pt x 443.85825pt>
+<./img/grafico_velocidade_br.png, id=203, 591.4095pt x 443.85825pt>
 File: ./img/grafico_velocidade_br.png Graphic file (type png)
 <use ./img/grafico_velocidade_br.png>
 Package pdftex.def Info: ./img/grafico_velocidade_br.png  used on input line 136.
 (pdftex.def)             Requested size: 227.62204pt x 170.82837pt.
-<./img/grafico_velocidade_br_zoom.png, id=194, 622.12425pt x 466.74374pt>
+<./img/grafico_velocidade_br_zoom.png, id=204, 622.12425pt x 466.74374pt>
 File: ./img/grafico_velocidade_br_zoom.png Graphic file (type png)
 <use ./img/grafico_velocidade_br_zoom.png>
 Package pdftex.def Info: ./img/grafico_velocidade_br_zoom.png  used on input line 137.
 (pdftex.def)             Requested size: 227.62204pt x 170.76956pt.
-<./img/IPlaca1.png, id=195, 16.56187pt x 21.83156pt>
+<./img/IPlaca1.png, id=205, 16.56187pt x 21.83156pt>
 File: ./img/IPlaca1.png Graphic file (type png)
 <use ./img/IPlaca1.png>
 Package pdftex.def Info: ./img/IPlaca1.png  used on input line 151.
 (pdftex.def)             Requested size: 42.67912pt x 56.26967pt.
-<./img/IPlaca2.png, id=196, 49.68562pt x 67.0003pt>
+<./img/IPlaca2.png, id=206, 49.68562pt x 67.0003pt>
 File: ./img/IPlaca2.png Graphic file (type png)
 <use ./img/IPlaca2.png>
 Package pdftex.def Info: ./img/IPlaca2.png  used on input line 152.
 (pdftex.def)             Requested size: 42.67912pt x 57.55368pt.
-<./img/IPlaca3.png, id=197, 23.33719pt x 31.61812pt>
+<./img/IPlaca3.png, id=207, 23.33719pt x 31.61812pt>
 File: ./img/IPlaca3.png Graphic file (type png)
 <use ./img/IPlaca3.png>
 Package pdftex.def Info: ./img/IPlaca3.png  used on input line 153.
 (pdftex.def)             Requested size: 42.67912pt x 57.82582pt.
-<./img/IPlaca4.png, id=198, 53.44969pt x 70.76437pt>
+<./img/IPlaca4.png, id=208, 53.44969pt x 70.76437pt>
 File: ./img/IPlaca4.png Graphic file (type png)
 <use ./img/IPlaca4.png>
 Package pdftex.def Info: ./img/IPlaca4.png  used on input line 154.
 (pdftex.def)             Requested size: 42.67912pt x 56.50467pt.
-<./img/IPlaca5.png, id=199, 40.65187pt x 54.2025pt>
+<./img/IPlaca5.png, id=209, 40.65187pt x 54.2025pt>
 File: ./img/IPlaca5.png Graphic file (type png)
 <use ./img/IPlaca5.png>
 Package pdftex.def Info: ./img/IPlaca5.png  used on input line 155.
 (pdftex.def)             Requested size: 42.67912pt x 56.91016pt.
-<./img/IPlaca6.png, id=200, 28.60687pt x 37.64063pt>
+<./img/IPlaca6.png, id=210, 28.60687pt x 37.64063pt>
 File: ./img/IPlaca6.png Graphic file (type png)
 <use ./img/IPlaca6.png>
 Package pdftex.def Info: ./img/IPlaca6.png  used on input line 156.
 (pdftex.def)             Requested size: 42.67912pt x 56.15924pt.
-<./img/IPlaca7.png, id=201, 25.59563pt x 34.62938pt>
+<./img/IPlaca7.png, id=211, 25.59563pt x 34.62938pt>
 File: ./img/IPlaca7.png Graphic file (type png)
 <use ./img/IPlaca7.png>
 Package pdftex.def Info: ./img/IPlaca7.png  used on input line 157.
 (pdftex.def)             Requested size: 42.67912pt x 57.74628pt.
-<./img/IPlaca8.png, id=202, 27.85406pt x 37.64063pt>
+<./img/IPlaca8.png, id=212, 27.85406pt x 37.64063pt>
 File: ./img/IPlaca8.png Graphic file (type png)
 <use ./img/IPlaca8.png>
 Package pdftex.def Info: ./img/IPlaca8.png  used on input line 158.
 (pdftex.def)             Requested size: 42.67912pt x 57.67897pt.
-<./img/IPlaca9.png, id=203, 48.93282pt x 65.49469pt>
+<./img/IPlaca9.png, id=213, 48.93282pt x 65.49469pt>
 File: ./img/IPlaca9.png Graphic file (type png)
 <use ./img/IPlaca9.png>
 Package pdftex.def Info: ./img/IPlaca9.png  used on input line 159.
 (pdftex.def)             Requested size: 42.67912pt x 57.12779pt.
-<./img/grafico_distancia_acumulada_uk.png, id=204, 651.6345pt x 519.1395pt>
+<./img/grafico_distancia_acumulada_uk.png, id=214, 651.6345pt x 519.1395pt>
 File: ./img/grafico_distancia_acumulada_uk.png Graphic file (type png)
 <use ./img/grafico_distancia_acumulada_uk.png>
 Package pdftex.def Info: ./img/grafico_distancia_acumulada_uk.png  used on input line 187.
 (pdftex.def)             Requested size: 199.16928pt x 158.67397pt.
-<./img/grafico_distancia_acumulada_uk_zoom.png, id=205, 653.44125pt x 519.1395pt>
+<./img/grafico_distancia_acumulada_uk_zoom.png, id=215, 653.44125pt x 519.1395pt>
 File: ./img/grafico_distancia_acumulada_uk_zoom.png Graphic file (type png)
 <use ./img/grafico_distancia_acumulada_uk_zoom.png>
 Package pdftex.def Info: ./img/grafico_distancia_acumulada_uk_zoom.png  used on input line 188.
 (pdftex.def)             Requested size: 199.16928pt x 158.23036pt.
-<./img/grafico_velocidade_uk.png, id=206, 714.87074pt x 539.01375pt>
+<./img/grafico_velocidade_uk.png, id=216, 714.87074pt x 539.01375pt>
 File: ./img/grafico_velocidade_uk.png Graphic file (type png)
 <use ./img/grafico_velocidade_uk.png>
 Package pdftex.def Info: ./img/grafico_velocidade_uk.png  used on input line 191.
 (pdftex.def)             Requested size: 199.16928pt x 150.17436pt.
-<./img/grafico_velocidade_uk_zoom.png, id=207, 708.84825pt x 534.798pt>
+<./img/grafico_velocidade_uk_zoom.png, id=217, 708.84825pt x 534.798pt>
 File: ./img/grafico_velocidade_uk_zoom.png Graphic file (type png)
 <use ./img/grafico_velocidade_uk_zoom.png>
 Package pdftex.def Info: ./img/grafico_velocidade_uk_zoom.png  used on input line 192.
@@ -529,36 +529,37 @@ Package pdftex.def Info: ./img/grafico_velocidade_uk_zoom.png  used on input lin
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [6 <./img/grafico_velocidade_br.png> <./img/grafico_velocidade_br_zoom.png> <./img/IPlaca1.png> <./img/IPlaca2.png> <./img/IPlaca3.png> <./img/IPlaca4.png> <./img/IPlaca5.png> <./img/IPlaca6.png> <./img/IPlaca7.png> <./img/IPlaca8.png> <./img/IPlaca9.png>] [7 <./img/grafico_distancia_acumulada_uk.png> <./img/grafico_distancia_acumulada_uk_zoom.png> <./img/grafico_velocidade_uk.png> <./img/grafico_velocidade_uk_zoom.png>]
-<./img/tabelas_bloco_rampa.png, id=241, 1096.095pt x 353.52075pt>
+<./img/tabelas_bloco_rampa.png, id=252, 1096.095pt x 353.52075pt>
 File: ./img/tabelas_bloco_rampa.png Graphic file (type png)
 <use ./img/tabelas_bloco_rampa.png>
-Package pdftex.def Info: ./img/tabelas_bloco_rampa.png  used on input line 229.
+Package pdftex.def Info: ./img/tabelas_bloco_rampa.png  used on input line 232.
 (pdftex.def)             Requested size: 455.24408pt x 146.83244pt.
-File: ./img/tabelas_bloco_rampa.png Graphic file (type png)
-<use ./img/tabelas_bloco_rampa.png>
-Package pdftex.def Info: ./img/tabelas_bloco_rampa.png  used on input line 237.
-(pdftex.def)             Requested size: 455.24408pt x 146.83244pt.
+<./img/tabelas_movimento_circular.png, id=253, 1025.0295pt x 552.8655pt>
+File: ./img/tabelas_movimento_circular.png Graphic file (type png)
+<use ./img/tabelas_movimento_circular.png>
+Package pdftex.def Info: ./img/tabelas_movimento_circular.png  used on input line 246.
+(pdftex.def)             Requested size: 455.24408pt x 245.54773pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8 <./img/tabelas_bloco_rampa.png>] [9] (./main.aux)
+[8 <./img/tabelas_bloco_rampa.png>] [9 <./img/tabelas_movimento_circular.png>] [10] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 225B0578DFC9E67C12DA3507A8520E3A;3305.
+(rerunfilecheck)             Checksum: 32856B80109954076678E066B3FD9070;3610.
  ) 
 Here is how much of TeX's memory you used:
- 11991 strings out of 478276
- 196236 string characters out of 5850489
- 504748 words of memory out of 5000000
- 29987 multiletter control sequences out of 15000+600000
- 475249 words of font info for 49 fonts, out of 8000000 for 9000
+ 12006 strings out of 478276
+ 196630 string characters out of 5850489
+ 504753 words of memory out of 5000000
+ 29997 multiletter control sequences out of 15000+600000
+ 475417 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,10n,79p,754b,449s stack positions out of 5000i,500n,10000p,200000b,80000s
-<d:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on main.pdf (9 pages, 1520908 bytes).
+<d:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (10 pages, 1612914 bytes).
 PDF statistics:
- 303 PDF objects out of 1000 (max. 8388607)
- 211 compressed objects within 3 object streams
- 53 named destinations out of 1000 (max. 500000)
- 348 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 327 PDF objects out of 1000 (max. 8388607)
+ 230 compressed objects within 3 object streams
+ 56 named destinations out of 1000 (max. 500000)
+ 369 words of extra memory for PDF output out of 10000 (max. 10000000)
 

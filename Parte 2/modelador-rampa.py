@@ -20,7 +20,7 @@ def main():
     # Variação de tempo entre cada cálculo (s)
     dt = 1/30
     # Tempo final da simulação (s)
-    t_final = 0.45
+    t_final = 100
     # Tempo inicial da simulação (s)
     t_inicial = 1/30
 
@@ -46,7 +46,7 @@ def main():
 
     imprimir(estados)
 
-    animar_rampa(animacao)
+    animar_rampa(animacao, teta)
 
 def imprimir(estados: list):
     print(f"{estados[0][0]}\t {estados[0][1]}")

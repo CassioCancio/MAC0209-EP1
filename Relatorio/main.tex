@@ -210,7 +210,7 @@
 
 \subsection{Introdução}
 
-\qquad Inicialmente, foi necessário que o grupo escolhesse dois movimentos para modelá-los. Para este trabalho, os movimentos escolhidos foram o bloco na rampa e o movimento circular. O programa deveria ter como entrada as condições iniciais do experimento, como a massa dos objetos envolvidos, a inclinação da rampa na qual o bloco iria deslizar etc. A partir dessas informações, o programa deveria simular o deslocamento do objeto seguindo as fórmulas de física vistas em aula.
+\qquad Inicialmente, foi necessário que o grupo escolhesse dois movimentos para modelá-los. Para este trabalho, os movimentos escolhidos foram o bloco de aço na rampa de madeira e o movimento circular. O programa deveria ter como entrada as condições iniciais do experimento, como a massa dos objetos envolvidos, a inclinação da rampa na qual o bloco iria deslizar etc. A partir dessas informações, o programa deveria simular o deslocamento do objeto seguindo as fórmulas de física vistas em aula.
 
 \qquad Esse tipo de experimento é importante, pois é utilizado em diversas áreas da computação, como jogos, simuladores e programas educacionais. Por fim, os resultados do simulador foram comparados com os resultados dos experimentos feitos fisicamente por alunos do Instituto de Física da USP. 
 
@@ -220,9 +220,12 @@
 
 
 \subsection{Dados e métodos}
-Os dados obtidos pelos experimentos estão dispostos na imagem a seguir:
 
-\vspace{0.5cm}
+\qquad Os dados foram extraídos do site \url{http://www.fep.if.usp.br/~fisfoto/translacao/atrito/index.php} do Instituto de Física. Foi necessário extrair os dados de pelo menos 5 experimentos diferentes de cada tipo. Esses dados foram organizados em tabelas e as condições iniciais foram utilizados para simular o movimento pelo programa.
+
+\subsubsection{Bloco na rampa}
+
+\qquad Os dados extraídos são dos experimentos 1, 2, 4, 7 e 11 e estão tabelados a seguir:
 
 \begin{figure}[!h]
     \centering
@@ -230,15 +233,19 @@ Os dados obtidos pelos experimentos estão dispostos na imagem a seguir:
     \caption{Dados do bloco na rampa.}
 \end{figure}
 
-\vspace{0.5cm}
+\qquad O programa recebe a aceleração gravitacional, massa do bloco, coeficientes estático e cinético, velocidade e aceleração inicial do bloco, o ângulo da rampa, posição inicial, tempo inicial e final do experimento e o dt. Esses dados estão todos disponíveis na internet ou por meio do experimento, portanto, não foi difícil encontrá-los. Os coeficientes de atrito vieram do segundo documento disponível no site.
+
+
+
+\subsubsection{Movimento circular}
+\qquad Os dados extraídos são dos experimentos 2, 3, 5, 7 e 11 e estão tabelados a seguir:
+
 
 \begin{figure}[!h]
     \centering
-    \includegraphics[width=16cm]{./img/tabelas_bloco_rampa.png}
+    \includegraphics[width=16cm]{./img/tabelas_movimento_circular.png}
     \caption{Dados do movimento circular.}
 \end{figure}
-
-\vspace{0.5cm}
 
 
 \qquad
