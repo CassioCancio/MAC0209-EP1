@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1656898005 "c:/Users/cassi/OneDrive/USP/3_Semestre/MAC0209/EP1/MAC0209-EP1/Relatorio/main.tex" "main.pdf" "main" 1656898010
-  "c:/Users/cassi/OneDrive/USP/3_Semestre/MAC0209/EP1/MAC0209-EP1/Relatorio/main.tex" 1656897078 15471 8ff9fc9a4a7ca68a2c9138527d86b905 ""
+["pdflatex"] 1656907870 "c:/Users/cassi/OneDrive/USP/3_Semestre/MAC0209/EP1/MAC0209-EP1/Relatorio/main.tex" "main.pdf" "main" 1656907873
+  "c:/Users/cassi/OneDrive/USP/3_Semestre/MAC0209/EP1/MAC0209-EP1/Relatorio/main.tex" 1656907869 16075 3e6bc00b0475d201a86cf100a8866d50 ""
   "d:/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1648673408 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "d:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1648671517 1004 54797486969f23fa377b128694d548df ""
   "d:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1648671517 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -109,6 +109,11 @@
   "img/Parte 1.png" 1655605235 139345 06864ef79c1fd19f7460a39f26404a1a ""
   "img/Parte 2.png" 1655605267 20473 92ccf318b4bf85bfe4e2cf74ea5f71c3 ""
   "img/Parte 3.png" 1655605289 19198 f36ace4fe2d3efc0ca81de481c91fef6 ""
+  "img/bloco_rampa_1.png" 1656905269 32689 2f5ee85d95c9fe8ae3483493541a6e4c ""
+  "img/bloco_rampa_11.png" 1656907220 35287 03601ca7e23879728ff3568ff6c1c233 ""
+  "img/bloco_rampa_2.png" 1656905587 34759 173bb04621e42f75e680fd91c4056470 ""
+  "img/bloco_rampa_4.png" 1656906705 34193 6777e0f65e6d181e62b9c45ed8497919 ""
+  "img/bloco_rampa_8.png" 1656906987 34014 6f9f09fc7bf067e4fd022894e757296a ""
   "img/grafico_distancia_acumulada.png" 1656595290 47955 c56ef294e630b2a38c01dcaca044dbc3 ""
   "img/grafico_distancia_acumulada_uk.png" 1656616463 57214 ba3ded41b96b2de01871a63d9a3bbbe0 ""
   "img/grafico_distancia_acumulada_uk_zoom.png" 1656616515 60459 63ca4ec544ff5bc05b1efd4f5ae61c12 ""
@@ -121,10 +126,10 @@
   "img/mapaInglaterra.png" 1656375008 208891 9d16580bdf13b21dec690d4b31b218bf ""
   "img/tabelas_bloco_rampa.png" 1656889829 43102 bc157dca3045ba166b52f4cf68b9b939 ""
   "img/tabelas_movimento_circular.png" 1656892299 114189 80edd1a79e2b58c9f43d725b99491ff1 ""
-  "main.aux" 1656898010 6851 0d738f28ac80d8776347a9754a2a9c0e "pdflatex"
-  "main.out" 1656898010 3610 32856b80109954076678e066b3fd9070 "pdflatex"
-  "main.tex" 1656897078 15471 8ff9fc9a4a7ca68a2c9138527d86b905 ""
-  "main.toc" 1656898010 2185 1c96673167ecef0769fe6bb0c0557d7b "pdflatex"
+  "main.aux" 1656907873 7720 e01797c3be61ea9c815d06b5cc96f0da "pdflatex"
+  "main.out" 1656907873 3610 32856b80109954076678e066b3fd9070 "pdflatex"
+  "main.tex" 1656907869 16075 3e6bc00b0475d201a86cf100a8866d50 ""
+  "main.toc" 1656907873 2187 280e0a6f5b63bf75fdb224d68ce7220e "pdflatex"
   (generated)
   "main.aux"
   "main.log"
