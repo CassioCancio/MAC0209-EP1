@@ -53,14 +53,12 @@ class Experiment_Handler:
 
     def train(self):
         self.state_vec = initState(self.theta, self.omega, self.ti)
-        print(self.state_vec)
         self.states = [self.state_vec]
         self.thetas_vec = [self.theta]
         self.omegas_vec = [self.omega]
         self.time_vec = [self.ti]
         
         while self.ti <= self.tf:
-            # print(self.state_vec)
             self.state_vec = nextState(self.state_vec, self.dt)
             self.states.append(self.state_vec)
             self.thetas_vec.append(self.state_vec[0])
@@ -69,15 +67,17 @@ class Experiment_Handler:
             self.ti += self.dt
 
     def graph(self):
-        plt.plot(self.time_vec, self.experiments[self.index], color="cyan")
-        plt.plot(self.time_vec, self.radians_to_angle(self.thetas_vec), color="magenta")
+        plt.plot(self.time_vec, self.experiments[self.index], color="cyan", label="Experimento")
+        plt.plot(self.time_vec, self.radians_to_angle(self.thetas_vec), color="magenta", label="Simulação")
         plt.ylabel("Ângulo em graus")
         plt.xlabel("Tempo em segundos")
+        plt.legend()
+        plt.grid()
         plt.show()
 
 
 def main():
-    experiment_index = 0    # escolher qual dos experimentos a modelar
+    experiment_index = 1   # escolher qual dos experimentos a modelar
     experiment = Experiment_Handler(experiment_index)
     experiment.train()
     experiment.graph()
