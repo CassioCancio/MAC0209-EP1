@@ -233,7 +233,7 @@
     \caption{Dados do bloco na rampa.}
 \end{figure}
 
-\qquad O programa recebe a aceleração gravitacional, massa do bloco, coeficientes estático e cinético, velocidade e aceleração inicial do bloco, o ângulo da rampa, posição inicial, tempo inicial e final do experimento e o dt. Esses dados estão todos disponíveis na internet ou por meio do experimento, portanto, não foi difícil encontrá-los. Os coeficientes de atrito vieram do segundo documento disponível no site.
+\qquad O programa recebe a aceleração gravitacional, massa do bloco, coeficientes estático e cinético, velocidade e aceleração inicial do bloco, o ângulo da rampa, posição inicial, tempo inicial e final do experimento e o $\Delta t$. Esses dados estão todos disponíveis na internet ou por meio do experimento, portanto, não foi difícil encontrá-los. Os coeficientes de atrito vieram do segundo documento disponível no site.
 
 
 
@@ -247,14 +247,11 @@
     \caption{Dados do movimento circular.}
 \end{figure}
 
-
-\qquad Explique os dados usados e os métodos desenvolvidos.
+\qquad O programa recebe o valor da gravidade, raio do loop que a bola circula, o valor de $\theta$(Ângulo) inicial, o valor de $\omega$(Velocidade Ângular inicial) inicial, o tempo inicial e final do experimento e o $\Delta t$. Novamente, os dados foram encontrados facilmente por meio da internet e informações do próprio experimento.
 
 \subsection{Resultados experimentais}
 
 \subsubsection{Bloco na rampa}
-
-
 
 
 \begin{figure}[!h]
@@ -272,11 +269,25 @@
 
 \subsubsection{Movimento circular}
 
-Apresente os resultados obtidos, Explore tabelas e gráficos ilustrativos.
+\begin{figure}[!h]
+    \centering
+    \subfloat[Experimento 2]{{\includegraphics[width=5.25cm]{./img/movimento_circular_2.png}}}\quad
+    \subfloat[Experimento 3]{{\includegraphics[width=5.25cm]{./img/movimento_circular_3.png}}}\quad
+    \subfloat[Experimento 5]{{\includegraphics[width=5.25cm]{./img/movimento_circular_5.png}}}\quad
+    \subfloat[Experimento 7]{{\includegraphics[width=5.25cm]{./img/movimento_circular_7.png}}}\quad
+    \subfloat[Experimento 11]{{\includegraphics[width=5.25cm]{./img/movimento_circular_11.png}}}
+    \caption{Comparação entre a simulação e os dados experimentais.}
+\end{figure}
 
 \subsection{Discussão}
 
-Interprete os resultados e apresente uma visão crítica.
+\subsubsection{Bloco na rampa}
+
+
+
+\subsubsection{Movimento circular}
+
+\qquad No experimento do Movimento Circular, modelamos o deslocamento da esfera a partir de seu ângulo na espiral($\theta$), sua velocidade angular($\omega$) e o tempo decorrido(t). Para
 
 \newpage
 

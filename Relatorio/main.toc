@@ -1,4 +1,4 @@
-\babel@toc {portuguese}{}\relax 
+\babel@toc {nil}{}
 \contentsline {section}{\numberline {1}Cronograma}{3}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Gantt Chart}{3}{subsection.1.1}%
 \contentsline {section}{\numberline {2}Kartaview}{4}{section.2}%
@@ -19,6 +19,8 @@
 \contentsline {subsubsection}{\numberline {3.4.1}Bloco na rampa}{9}{subsubsection.3.4.1}%
 \contentsline {subsubsection}{\numberline {3.4.2}Movimento circular}{10}{subsubsection.3.4.2}%
 \contentsline {subsection}{\numberline {3.5}Discussão}{10}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Bloco na rampa}{10}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}Movimento circular}{10}{subsubsection.3.5.2}%
 \contentsline {section}{\numberline {4}Aplicação (máximo de 4 páginas)}{11}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Introdução}{11}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Objetivos}{11}{subsection.4.2}%
