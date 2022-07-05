@@ -77,7 +77,7 @@ class Experiment_Handler:
 
 
 def main():
-    experiment_index = 1   # escolher qual dos experimentos a modelar
+    experiment_index = 0   # escolher qual dos experimentos a modelar
     experiment = Experiment_Handler(experiment_index)
     experiment.train()
     experiment.graph()
